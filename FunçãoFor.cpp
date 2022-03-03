@@ -6,7 +6,7 @@ main()
 {
 	setlocale(LC_ALL, "Portuguese");
 	int n;
-	printf("Entre com um número: ");
+	printf("Entre com um nÃºmero: ");
 	scanf("%d", &n);
 	printf("Par\timpar\n");
 	for(int count=1;count <=n;count++){
