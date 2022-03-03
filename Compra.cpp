@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <locale.h>
 #include <math.h>
-//Cálculo de desconto
+//CÃ¡lculo de desconto
 
 int main()
 {
@@ -12,7 +12,7 @@ int main()
 	char nome;
 	int bonus;
 	
-	printf("Parabéns!Você ganhou um bonus de 10% na sua última compra, siga as instruções para resgatá-lo!");
+	printf("ParabÃ©ns!VocÃª ganhou um bonus de 10% na sua Ãºltima compra, siga as instruÃ§Ãµes para resgatÃ¡-lo!");
 	printf("\nDigite seu nome");
 	scanf("%s", &nome);
 	printf("\nDigite o valor da sua compra");
@@ -21,6 +21,6 @@ int main()
 	//Desconto
 	bonus = compra - (compra*0.1);
 	
-	printf("\nParabéns!Seu produto agora custa: %.2i", bonus);
+	printf("\nParabÃ©ns!Seu produto agora custa: %.2i", bonus);
 	
 }
