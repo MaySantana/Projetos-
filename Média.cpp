@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <locale.h>
-//Cálculo da média
+//CÃ¡lculo da mÃ©dia
 
 int main()
 {
@@ -14,9 +14,9 @@ int main()
 	printf("\nEntre com a terceira nota");
 	scanf("%f", &n3);
 	
-	//Cálculo da média
+	//CÃ¡lculo da mÃ©dia
 	media = (n1+n2+n3)/3;
 	
-	printf("\nSua média é: %f", media);
+	printf("\nSua mÃ©dia Ã©: %f", media);
 	
 }
