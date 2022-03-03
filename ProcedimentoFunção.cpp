@@ -112,7 +112,7 @@ main(){
 
 	  	    break; 
 
-	  	default:printf("opcao inv·lida");
+	  	default:printf("opcao inv√°lida");
 
 	  	    break;
 
