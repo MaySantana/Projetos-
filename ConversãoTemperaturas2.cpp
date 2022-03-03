@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <locale.h>
-//Convers„o de Temperaturas
+//Convers√£o de Temperaturas
 
 int main()
 {
@@ -13,7 +13,7 @@ int main()
 	//Celsius para Kelvin
 	K = C + 273;
 	
-	printf("A temperatura em Kelvin È: %.2f", K);
+	printf("A temperatura em Kelvin √©: %.2f", K);
 	
 	printf("\nEscreva a temperatura em Kelvin");
 	scanf("%f", &K);
@@ -21,5 +21,5 @@ int main()
 	//Kelvin para Celsius
 	C = K - 273;
 	
-	printf("A temperatura em Celsius È: %.2f", C);
+	printf("A temperatura em Celsius √©: %.2f", C);
 }
