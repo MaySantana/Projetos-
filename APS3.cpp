@@ -22,7 +22,7 @@ void verifica(int gabarito[], int apostadores[10][13]){
 
       if(ac == 13){
 
-      printf("PARABENS VOCE EST¡ MILION¡RIO, apostador %d", (k + 1));
+      printf("PARABENS VOCE EST√Å MILION√ÅRIO, apostador %d", (k + 1));
 
       }
       i = 1;
