@@ -1,3 +1,6 @@
+#Calculadora de Peso para Homem e Mulher, Python
+#May Santana, 2021
+
 global altura;
 
 def PesoMulher(altura):
