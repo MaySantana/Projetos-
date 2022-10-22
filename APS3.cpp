@@ -1,3 +1,6 @@
+//Trabalho da Faculdade sobre verificar o gabarito de um sorteio, C
+//May Santana, 2021
+
 #include <stdio.h>
 
 void verifica(int gabarito[], int apostadores[10][13]){
@@ -10,6 +13,7 @@ void verifica(int gabarito[], int apostadores[10][13]){
     i = 0;
 
     while(i != 1){
+      
       ac = 0;
 
       for(int j = 0; j < 13; j++){
@@ -17,6 +21,7 @@ void verifica(int gabarito[], int apostadores[10][13]){
         if(gabarito[j] == apostadores[k][j]){
 
           ac++;
+          
         }
       }
 
@@ -25,7 +30,9 @@ void verifica(int gabarito[], int apostadores[10][13]){
       printf("PARABENS VOCE ESTÁ MILIONÁRIO, apostador %d", (k + 1));
 
       }
+      
       i = 1;
+      
     }
   }
 }
@@ -33,12 +40,12 @@ void verifica(int gabarito[], int apostadores[10][13]){
 int main(){
 
   int i, j, apostadores[10][13], gabarito[13];
-
   printf("Digite o gabarito do sorteio:\n");
 
   for(i = 0; i < 13; i++){
 
     scanf("%d", &gabarito[i]);
+    
   }
 
   for(j = 0; j < 10; j++){
@@ -48,6 +55,7 @@ int main(){
     for(i = 0; i < 13; i++){
 
       scanf("%d", &apostadores[j][i]);
+      
     }
   }
 
