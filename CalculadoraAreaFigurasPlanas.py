@@ -1,8 +1,9 @@
-#Parar o loop
+#Calculadora da Área de Figuras Planas, Python
+#May Santana, 2021
 
 global A, B, H, R, L;
 
-def Saída():
+def Saida():
     Result = int(input("O resultado final é: "));
     return Result;
 
@@ -47,4 +48,3 @@ while opção != 5:
        case 4: AreaRetangulo();
        case 5: print("Opção Inválida");
        case 5: break;
-
