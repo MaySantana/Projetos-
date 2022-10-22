@@ -1,3 +1,6 @@
+//Trabalho da Faculdade sobre ordenar 10 notas, C
+//May Santana, 2021
+
 #include <stdio.h>
 
 float aux, notas[10];
@@ -16,6 +19,7 @@ void ordenar(){
     }
   }
 }
+
 int main(){
 
   int i, j;
