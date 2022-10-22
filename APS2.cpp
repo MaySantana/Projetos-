@@ -1,3 +1,6 @@
+//Trabalho da Faculdade sobre achar o maior e o menor número primo em relação a um paramêtro, C
+//May Santana, 2021
+
 #include <stdio.h>
 
 void primo(int m, int *p1, int *p2){
