@@ -1,4 +1,5 @@
-#Parar o Loop
+#Calculadora, Python
+#May Santana, 2021
 
 global R, A, B;
 
@@ -47,6 +48,3 @@ while opção != 5:
          case 3: ResultMulti();
          case 4: ResultDivisão();
          case _: print("Opção Inválida");
-
-
-    
