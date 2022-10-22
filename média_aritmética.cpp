@@ -17,7 +17,7 @@ int main()
 	scanf("%f", &n3);
 	
 	//Cálculo da média
-	media = (n1+n2+n3)/3;
+	int media = (n1+n2+n3)/3;
 	
 	printf("\nSua média é: %f", media);
 	
