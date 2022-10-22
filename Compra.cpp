@@ -2,7 +2,9 @@
 #include <stdlib.h>
 #include <locale.h>
 #include <math.h>
-//Cálculo de desconto
+
+//Cálculo de Desconto em uma Compra, C
+//May Santana, 2021
 
 int main()
 {
