@@ -1,7 +1,9 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <locale.h>
-//Cálculo da média
+
+//Média Aritmética entre 3 números, C
+//May Santana, 2021
 
 int main()
 {
