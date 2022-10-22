@@ -1,3 +1,6 @@
+//Matriz, C
+//May Santana, 2021
+
 #include <stdio.h>
 
 main()
@@ -5,9 +8,8 @@ main()
 {
 
     int linhas=4, colunas=4, i, j;
-
     int matriz[linhas][colunas];
-
+    
     for(i=0;i<4;i=i+1)
 
     {
@@ -39,5 +41,4 @@ main()
     }
 
 }
-
 
