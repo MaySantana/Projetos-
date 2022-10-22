@@ -1,3 +1,6 @@
+//Dias da Semana no Switch, C
+//May Santana, 2021
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <locale.h>
@@ -5,9 +8,11 @@
 int main()
 {
 	setlocale(LC_ALL, "Portuguese");
+	
 	int semana;
 	printf("Digite um número para um dia da semana:");
 	scanf("%i", &semana);
+	
 	switch (semana) {
 		case 1:
 	printf("Domingo: final de semana");
