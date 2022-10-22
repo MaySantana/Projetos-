@@ -1,3 +1,6 @@
+//Trabalho da Fcauldade sobre coletar dados de uma pesquisa, C
+//May Santana, 2021
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -13,7 +16,9 @@ int maior_idade=0;
 
    for(i=0; i<100; i++){
     if(idade[i]>maior_idade){
+      
       maior_idade = idade[i];
+      
     }
   }
 
@@ -23,7 +28,9 @@ int maior_idade=0;
 void sexo_idade (int idade[], char sexo[]){
 
   q=0;
+  
   for(i=0; i<100; i++){
+    
     if(sexo[i] == 'F' && idade[i] > 18 && idade[i] < 35){
 
       q++;
@@ -37,10 +44,13 @@ void sexo_idade (int idade[], char sexo[]){
 void olho_cabelo (char corOlho[], char corCabelo[]){
 
   q=0;
+  
   for(i=0; i<100; i++){
+    
     if(corOlho[i] == 'V' && corCabelo[i] == 'L'){
 
       q++;
+      
     }
   }
   
@@ -56,6 +66,7 @@ int main(){
   for(i = 0; i < 100; i++){
 
     printf("\n\nPreencha a ficha da pessoa %d\n", (i + 1));
+    
     for(j = 1; j <= 4; j++){
 
       switch(j){
@@ -64,25 +75,21 @@ int main(){
           printf("Digite o seu sexo:");
           scanf("%c", &sexo[i]);
           fflush(stdin);
-
-          break;
+          break;       
         case 2:
           printf("Digite a cor dos olhos:");
           scanf("%c", &corOlho[i]);
           fflush(stdin);
-
           break;
         case 3:
           printf("Digite a cor dos cabelos:");
           scanf("%c", &corCabelo[i]);
           fflush(stdin);
-
           break;
         case 4:
           printf("Digite a sua idade:");
           scanf("%d", &idade[i]);
           fflush(stdin);
-
           break;
       }
     }
